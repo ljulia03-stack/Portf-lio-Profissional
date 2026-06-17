@@ -1,4 +1,4 @@
-# 🚀 Dev Portfolio
+# 🚀 Portfólio Profissional
 
 Um portfólio moderno e responsivo desenvolvido com HTML5, CSS3 e JavaScript.
 
