@@ -118,7 +118,7 @@ https://SEU-USUARIO.github.io/meu-site/
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Seu Nome**
+Desenvolvido por Julia Maria da Silva de Lima
 
 GitHub:
 
