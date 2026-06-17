@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Dev Portfolio</h1>
+
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Desenvolvedor Web</h2>
+
+        <p>
+            Transformando ideias em experiências digitais modernas,
+            rápidas e responsivas.
+        </p>
+
+        <button onclick="mostrarMensagem()">
+            Saiba Mais
+        </button>
+    </section>
+
+    <section id="sobre">
+
+        <h2>Sobre Mim</h2>
+
+        <div class="card">
+            <p>
+                Sou desenvolvedor apaixonado por tecnologia,
+                design moderno e criação de soluções digitais.
+                Meu objetivo é desenvolver sites rápidos,
+                profissionais e fáceis de usar.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="projetos">
+
+        <h2>Projetos</h2>
+
+        <div class="projetos-grid">
+
+            <div class="card">
+                <h3>Site Empresarial</h3>
+                <p>
+                    Plataforma moderna para empresas apresentarem
+                    seus serviços na internet.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Landing Page</h3>
+                <p>
+                    Página de alta conversão para divulgação
+                    de produtos e serviços.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>E-commerce</h3>
+                <p>
+                    Loja virtual responsiva com design moderno.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contato">
+
+        <h2>Contato</h2>
+
+        <form>
+
+            <input type="text" placeholder="Seu nome">
+
+            <input type="email" placeholder="Seu e-mail">
+
+            <textarea rows="5" placeholder="Digite sua mensagem"></textarea>
+
+            <button type="submit">
+                Enviar Mensagem
+            </button>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>© 2026 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
