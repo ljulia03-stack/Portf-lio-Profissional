@@ -17,4 +17,4 @@ Site simples desenvolvido com:
 
 ## Autor
 
-Seu Nome
+Julia Maria da Silva de Lima
