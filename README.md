@@ -1,128 +1,170 @@
-# 🚀 Portfólio Profissional
+# 🚀 Meu Portfólio
 
-Um portfólio moderno e responsivo desenvolvido com HTML5, CSS3 e JavaScript.
+Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido para apresentar minhas habilidades, projetos, experiências e formas de contato de maneira moderna e responsiva.
 
-## 📋 Sobre o Projeto
+## 📸 Preview
 
-Este projeto foi criado para apresentar informações profissionais, projetos, habilidades e formas de contato de maneira elegante e moderna.
+Adicione aqui uma captura de tela do projeto.
 
-O site possui um design tecnológico com gradientes em azul e ciano, além de ser totalmente responsivo para computadores, tablets e smartphones.
+```bash
+/public/preview.png
+```
 
 ---
 
 ## ✨ Funcionalidades
 
-- ✅ Layout moderno
-- ✅ Design responsivo
-- ✅ Navegação suave
-- ✅ Seção Sobre Mim
-- ✅ Seção de Projetos
-- ✅ Formulário de Contato
-- ✅ Efeitos de Hover
-- ✅ Gradientes Profissionais
-- ✅ Compatível com dispositivos móveis
+- Página inicial moderna
+- Sobre mim
+- Habilidades técnicas
+- Projetos em destaque
+- Experiência profissional
+- Contato
+- Design responsivo
+- Tema claro/escuro (se aplicável)
+- Animações e transições suaves
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
+- React
+- TypeScript
+- Next.js
+- Tailwind CSS
+- Framer Motion
+- Node.js
 
 ---
 
 ## 📂 Estrutura do Projeto
 
-```text
-meu-site/
-│
-├── index.html
-├── style.css
-├── script.js
+```bash
+portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── sections/
+│   ├── styles/
+│   ├── hooks/
+│   └── assets/
+├── package.json
+├── tsconfig.json
 └── README.md
 ```
 
 ---
 
-## 🎨 Paleta de Cores
+## ⚙️ Pré-requisitos
 
-| Cor | Hex |
-|------|------|
-| Azul Principal | #007BFF |
-| Ciano | #00D4FF |
-| Azul Escuro | #0A192F |
-| Preto Azulado | #111827 |
-| Branco | #FFFFFF |
+Antes de começar, você precisará ter instalado:
 
----
+- Node.js (18+)
+- npm ou yarn
 
-## 📸 Preview
-
-Adicione aqui uma captura de tela do seu site:
-
-```markdown
-![Preview do Site](imagem-preview.png)
-```
-
----
-
-## 🚀 Como Executar
-
-### Clone o repositório
+Verificar versões:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/meu-site.git
+node -v
+npm -v
 ```
 
-### Acesse a pasta
+---
+
+## 📥 Instalação
+
+Clone o repositório:
 
 ```bash
-cd meu-site
+git clone https://github.com/seu-usuario/portfolio.git
 ```
 
-### Abra o arquivo
+Entre na pasta:
 
-```text
-index.html
+```bash
+cd portfolio
 ```
 
----
+Instale as dependências:
 
-## 🌐 Publicação com GitHub Pages
-
-1. Vá em **Settings**
-2. Clique em **Pages**
-3. Em **Source**, selecione:
-
-```text
-Deploy from a branch
+```bash
+npm install
 ```
 
-4. Escolha:
+ou
 
-```text
-Branch: main
-Folder: /root
-```
-
-5. Clique em **Save**
-
-Seu site ficará disponível em:
-
-```text
-https://SEU-USUARIO.github.io/meu-site/
+```bash
+yarn install
 ```
 
 ---
 
-## 👨‍💻 Autor
+## ▶️ Executando o Projeto
 
-Desenvolvido por Julia Maria da Silva de Lima
+Modo desenvolvimento:
 
-GitHub:
+```bash
+npm run dev
+```
 
-https://github.com/SEU-USUARIO
+ou
+
+```bash
+yarn dev
+```
+
+O projeto estará disponível em:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 🏗️ Build de Produção
+
+Gerar build:
+
+```bash
+npm run build
+```
+
+Executar build:
+
+```bash
+npm start
+```
+
+---
+
+## 🧹 Lint
+
+Verificar padrões de código:
+
+```bash
+npm run lint
+```
+
+---
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido para funcionar em:
+
+- Desktop
+- Tablet
+- Smartphones
+
+---
+
+## 📧 Contato
+
+**Julia Maria da Silva de Lima**
+
+- LinkedIn: https://linkedin.com/in/seu-perfil
+- GitHub: https://github.com/seu-usuario
+- Email: seuemail@email.com
 
 ---
 
@@ -130,4 +172,10 @@ https://github.com/SEU-USUARIO
 
 Este projeto está sob a licença MIT.
 
-Sinta-se livre para usar, modificar e compartilhar.
+```text
+MIT License © 2025 Seu Nome
+```
+
+---
+
+⭐ Se gostou do projeto, considere deixar uma estrela no repositório.
