@@ -1,113 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lucas Vision | Portfólio</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <h1>Dev Portfolio</h1>
+<header>
+<nav class="container">
+<div class="logo">Lucas Vision</div>
 
-        <nav>
-            <a href="#sobre">Sobre</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
-        </nav>
-    </header>
+<ul class="menu">
+<li><a href="#inicio">Início</a></li>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#projetos">Projetos</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+</nav>
+</header>
 
-    <section id="hero">
-        <h2>Desenvolvedor Web</h2>
+<section id="inicio" class="hero">
+<div class="container hero-content">
 
-        <p>
-            Transformando ideias em experiências digitais modernas,
-            rápidas e responsivas.
-        </p>
+<div>
+<h1>Design. Código. Criatividade.</h1>
 
-        <button onclick="mostrarMensagem()">
-            Saiba Mais
-        </button>
-    </section>
+<p>
+Transformando ideias em experiências digitais modernas,
+responsivas e memoráveis.
+</p>
 
-    <section id="sobre">
+<a href="#projetos" class="btn">Ver Projetos</a>
+</div>
 
-        <h2>Sobre Mim</h2>
+<img
+src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+alt="Desenvolvedor">
+</div>
+</section>
 
-        <div class="card">
-            <p>
-                Sou desenvolvedor apaixonado por tecnologia,
-                design moderno e criação de soluções digitais.
-                Meu objetivo é desenvolver sites rápidos,
-                profissionais e fáceis de usar.
-            </p>
-        </div>
+<section id="sobre" class="sobre">
+<div class="container">
 
-    </section>
+<h2>Sobre Mim</h2>
 
-    <section id="projetos">
+<p>
+Sou desenvolvedor web apaixonado por criar sites modernos,
+rápidos e visualmente impressionantes.
+Meu foco é unir design elegante e tecnologia para entregar
+experiências digitais de alto nível.
+</p>
 
-        <h2>Projetos</h2>
+</div>
+</section>
 
-        <div class="projetos-grid">
+<section id="projetos" class="projetos">
+<div class="container">
 
-            <div class="card">
-                <h3>Site Empresarial</h3>
-                <p>
-                    Plataforma moderna para empresas apresentarem
-                    seus serviços na internet.
-                </p>
-            </div>
+<h2>Projetos</h2>
 
-            <div class="card">
-                <h3>Landing Page</h3>
-                <p>
-                    Página de alta conversão para divulgação
-                    de produtos e serviços.
-                </p>
-            </div>
+<div class="grid">
 
-            <div class="card">
-                <h3>E-commerce</h3>
-                <p>
-                    Loja virtual responsiva com design moderno.
-                </p>
-            </div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="">
+<h3>Dashboard Empresarial</h3>
+<p>Painel moderno com gráficos e indicadores.</p>
+</div>
 
-        </div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1559028012-481c04fa702d" alt="">
+<h3>E-commerce Premium</h3>
+<p>Loja virtual responsiva e elegante.</p>
+</div>
 
-    </section>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="">
+<h3>Landing Page</h3>
+<p>Alta conversão e design futurista.</p>
+</div>
 
-    <section id="contato">
+</div>
 
-        <h2>Contato</h2>
+</div>
+</section>
 
-        <form>
+<section id="contato" class="contato">
 
-            <input type="text" placeholder="Seu nome">
+<div class="container">
 
-            <input type="email" placeholder="Seu e-mail">
+<h2>Contato</h2>
 
-            <textarea rows="5" placeholder="Digite sua mensagem"></textarea>
+<form>
 
-            <button type="submit">
-                Enviar Mensagem
-            </button>
+<input type="text" placeholder="Seu nome">
 
-        </form>
+<input type="email" placeholder="Seu e-mail">
 
-    </section>
+<textarea placeholder="Sua mensagem"></textarea>
 
-    <footer>
-        <p>© 2026 - Todos os direitos reservados</p>
-    </footer>
+<button type="submit" class="btn">
+Enviar
+</button>
 
-    <script src="script.js"></script>
+</form>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Lucas Vision • Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
-
 </html>
